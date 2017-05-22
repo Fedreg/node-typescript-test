@@ -1,0 +1,13 @@
+{
+  "compilerOptions":
+  { "target": "es5"                  
+    , "declaration": true       
+    , "outDir": "dist"  
+    , "strict": true
+    , "typeRoots": ["node_modules/@types"]   
+    , "noImplicitAny": false
+  },
+
+  "include": ["src/**/*.ts"]
+  , "exclude": ["node_modules"]
+}
